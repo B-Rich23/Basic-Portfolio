@@ -7,19 +7,24 @@ h1 {
 	color: #ffffff;
 	background-color: #4aaaa5;
 	/*float: left;*/
+	margin-left: 30px;
 	padding-top: 30px;
 	padding-bottom: 10px;
 	height: 50px;
 	text-align: center;
+	font-size: x-large;
+    font-weight: bold;
 	/*position: relative;*/
 	bottom: 0px;
-	margin: 0px;
+	/*margin: 0px;*/
 }
 
 h2 {
 	color: #4aaaa5;
 	background-color: #ffffff;
 	border-style: solid;
+	font-size: larger;
+    font-weight: bold;
 	border-bottom-color: #777777;
 	border-width: 0px 0px 1px 0px;
 	padding-left: 20px;
@@ -27,6 +32,10 @@ h2 {
 }
 h3, h4, h5, p {
 	color: #777777;
+}
+
+h5 {
+	text-align: center;
 }
 
 #hcontainer {
@@ -66,8 +75,8 @@ h3, h4, h5, p {
 	float: left;
 	width: 650px;
 	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 	position: relative;
 	background-color: #ffffff;
 	top: 100px;
@@ -79,7 +88,8 @@ h3, h4, h5, p {
 #social {
 	float: right;
 	margin-top: 110px;
-	margin-left: 300px;
+	margin-right: 250px;
+	text-align: center;
 	/*margin: 0px;*/
 	background-color: #ffffff;
 	height: 133px;
