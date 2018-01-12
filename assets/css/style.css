@@ -1,7 +1,116 @@
 body {
 	/*background: gray;*/
-	background-image: url("assets/images/concrete_seamless.png");
+	background-image: url(concrete_seamless.png);
+	background-repeat: repeat-x repeat-y; 
 }
+
+h1 {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+}
+
 h2 {
-	color: red;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	border-style: solid;
+	border-bottom-color: #777777;
+	border-width: 0px 0px 1px 0px;
+
 }
+h3, h4, h5, p {
+	color: #777777;
+}
+
+h5 {
+	border-right: 1px solid #777777;
+	text-align: right;
+
+}
+
+.info {
+	float: left;
+	width: 650px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+
+
+}
+
+.aside {
+	/*float: right;*/
+	/*width: 50px;*/
+	margin-top: 10px;
+	margin-left: 100px;
+	position: absolute;
+	height: 50px;
+	width: 10px;
+	
+
+}
+
+footer {
+	/*clear: both;*/
+	/*overflow: auto;*/
+	color: #ffffff;
+	background-color: #666666;
+	max-width: 100%;
+	margin: auto;
+	position: absolute;
+	bottom:0px;
+	right: 10px;
+	left: 10px;
+	border-style: solid;
+	border-top-color: #4aaaa5;
+	border-width: 10px 0px 0px 0px;
+	text-align: center;
+	padding: 20px;	
+}
+
+/*.hcontainer {*/
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+	text-align: right;
+}
+
+/*.name {*/
+	/*float: left;*/
+	padding: 50px;
+	/*height: 50px;*/
+	position: absolute;
+	right: 85%;
+}
+
+.hcontainer {
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    margin: 1px;
+}
+
+.hcontainer, .info, .social {
+	background-color: #ffffff;
+}
+
+.repo1, .repo2, .repo3, .repo4, .repo5 {
+	/*background-color: #4aaaa5;*/
+	color: #ffffff;
+}
+
+/*p.repo1 {*/
+	background-color: #4aaaa5;
+}
+
+.repo {
+	background-color: #ffffff;
+}
+
