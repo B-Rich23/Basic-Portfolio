@@ -3,64 +3,59 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Portfolio Gallery</title>
-		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-			<!-- This is the header div that contains the section with my name ans the links to "About", "Portfolio", and "Contact" -->
-			<header class="hcontainer">
+			<!-- This is the header div that contains the section with my name and the links to "About", "Portfolio", and "Contact" -->
+			<header id="hcontainer">
 				<!-- This is the section that contains my name -->
-				<section class="name"><h1>Brandan Richardson</h1></section>
-				<a href="index.html">
-					<h5>About</h5>
-				</a>
-				<a href="#">
-					<h5>Portfolio</h5>
-				</a>
-				<a href="contact.html">
-					<h5>Contact</h5>
-				</a>
+				<section id="name"><h1>Brandan Richardson</h1></section>
+
+				<!-- This is the section that includes the tabs -->
+				<section id="tabs">
+				<h5><a href="index.html" class="tab1">About</a> <a href="#" class="tab2">Portfolio</a> <a href="contact.html" class="tab3">Contact</a></h5>
+				</section>
 			</header>
 
 			<!-- This is the div that includes the placeholder portfolio images -->
 			<div class="repo"><h2>Portfolio</h2>
 				<!-- This is the section for Repo 1 -->
-				<section class="repo1"> <img src="http://lorempixel.com/400/200" alt="" style="width:200px;height:100px;border:0;">
-				<p>Repo 1</p>
+				<section class="repo1"> <img src="http://lorempixel.com/200/200" alt="" style="width:200px;height:100px;border:0;">
+				<p class="prepo">Repo 1</p>
 				</section>
 
 				<!-- This is the section for Repo 2 -->
-				<section class="repo2"> <img src="http://lorempixel.com/400/200" alt="" style="width:200px;height:100px;border:0;">
-				<p>Repo 2</p>
+				<section class="repo2"> <img src="http://lorempixel.com/200/200" alt="" style="width:200px;height:100px;border:0;">
+				<p class="prepo">Repo 2</p>
 				</section>
 
 				<!-- This is the section for Repo 3 -->
-				<section class="repo3"> <img src="http://lorempixel.com/400/200" alt="" style="width:200px;height:100px;border:0;">
-				<p>Repo 3</p>
+				<section class="repo3"> <img src="http://lorempixel.com/200/200" alt="" style="width:200px;height:100px;border:0;">
+				<p class="prepo">Repo 3</p>
 				</section>
 
 				<!-- This is the section for Repo 4 -->
-				<section class="repo4"> <img src="http://lorempixel.com/400/200" alt="" style="width:200px;height:100px;border:0;">
-				<p>Repo 4</p>
+				<section class="repo4"> <img src="http://lorempixel.com/200/200" alt="" style="width:200px;height:100px;border:0;">
+				<p class="prepo">Repo 4</p>
 				</section>
 
 				<!-- This is the section for Repo 5 -->
-				<section class="repo5"> <img src="http://lorempixel.com/400/200" alt="" style="width:200px;height:100px;border:0;">
-				<p>Repo 5</p>
+				<section class="repo5"> <img src="http://lorempixel.com/200/200" alt="" style="width:200px;height:100px;border:0;">
+				<p class="prepo">Repo 5</p>
 				</section>
 			</div>
 
 			<!-- This is the "Connect With Me" container that includes the social media images w/ links -->
-			<aside class="social">
+			<section id="social">
 				<h2>Connect With Me</h2>
 					<a href="https://github.com/B-Rich23">
-
-					<img src="assets/images/if_github_square_black_107109.png" alt="github" style="width:42px;height:42px;border:0;">
-				</a>
-				<a href="https://www.linkedin.com/in/brandan-richardson-34110319/"> <img src="assets/images/if_linkedin_square_color_107091.png" alt="linkedin" style="width:42px;height:42px;border:0;"></a>
-				<a href="https://stackexchange.com/users/12590083/b-rich23"> <img src="assets/images/if_stackoverflow_273179.png" alt="stackoverflow" style="width:42px;height:42px;border:0;"></a>
-
-			</aside>
+						<img src="assets/images/if_github_square_black_107109.png" alt="github" style="width:42px;height:42px;border:0;"></a>
+				<a href="https://www.linkedin.com/in/brandan-richardson-34110319/">
+					<img src="assets/images/if_linkedin_square_color_107091.png" alt="linkedin" style="width:42px;height:42px;border:0;"></a>
+				<a href="https://stackexchange.com/users/12590083/b-rich23"> 
+					<img src="assets/images/if_stackoverflow_273179.png" alt="stackoverflow" style="width:42px;height:42px;border:0;"></a>
+			</section>
 
 			<!-- This is the footer that includes "&copy Copyright 2018 Brandan Richardson" -->
 			<footer class="footer">&copy Copyright 2018 Brandan Richardson</footer>

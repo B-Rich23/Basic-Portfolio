@@ -28,6 +28,8 @@ h2 {
 	border-bottom-color: #777777;
 	border-width: 0px 0px 1px 0px;
 	padding-left: 20px;
+	margin-bottom: 10px;
+    padding-top: 10px;
 
 }
 h3, h4, h5, p {
@@ -36,6 +38,59 @@ h3, h4, h5, p {
 
 h5 {
 	text-align: center;
+}
+
+.repo {
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: relative;
+	background-color: #ffffff;
+	top: 100px;
+	padding: 50px;
+	/*height: 300px;*/
+}
+
+.prepo {
+	color: #ffffff;
+}
+
+.repo1 {
+	float: left;
+	background-color: #4aaaa5;
+	/*margin-right: 10px;*/
+	/*margin-bottom: 10px;*/
+	margin: 10px;
+	
+}
+
+.repo2 {
+	float: left;
+	background-color: #4aaaa5;
+	margin: 10px;
+	
+}
+
+.repo3 {
+	float: left;
+	background-color: #4aaaa5;
+	margin-right: 10px;
+	margin: 10px;
+	
+}
+
+.repo4 {
+	float: left;
+	background-color: #4aaaa5;
+	margin: 10px;
+}
+
+.repo5 {
+	float: left;
+	background-color: #4aaaa5;
+	margin: 10px;
 }
 
 #hcontainer {
@@ -80,9 +135,10 @@ h5 {
 	position: relative;
 	background-color: #ffffff;
 	top: 100px;
+}
 
-
-
+#bio {
+	float: right;
 }
 
 #social {
@@ -97,8 +153,23 @@ h5 {
 	left: 600px;
 	top: 100px;
 	/*overflow: auto;*/
+}
 
+.contactform {
+	height: 400px;
+    width: 500px;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 10px;
+    float: left;
+}
 
+form {
+	height: 350px;
+    width: 500px;
+    float: left;
+    margin-top: 10px;
 }
 
 footer {
